@@ -1,0 +1,25 @@
+# Ignore all .log files
+*.log
+
+# Ignore all .env files
+.env
+
+# Ignore all node_modules (if using Node.js)
+node_modules/
+
+# Ignore all .DS_Store (MacOS)
+.DS_Store
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore VS Code settings
+.vscode/
+
+# Allow all folders
+!*/
+
+# If you want to ensure a specific folder is included, use:
+!my_folder/
